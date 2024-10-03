@@ -475,7 +475,7 @@ function opener(){
     if(memberNumber.length === 11){
         if( memberNumber === "01834648400" || memberNumber === "01814843266" 
          || memberNumber === "01922362569" || memberNumber === "01744459622"
-         || memberNumber === "01780608997" || memberNumber === "01821245430"
+         || memberNumber === "01780608997" || memberNumber === "01644377150"
          || memberNumber === "01645122114" || memberNumber === "01714443406"||memberNumber==="01749244430"){
             document.getElementById("user-btn").style.opacity = 1;
             document.getElementById("submitBtn").style.display = 'inline-block';
@@ -661,11 +661,11 @@ function opener(){
                                             </tr>
 					 
                                             <tr>
-                                                <td>${members["01821245430"].name}</td>
-                                                <td>${members["01821245430"].runningDiningCost()}</td>
-                                                <td>${members["01821245430"].runningMonth().diningAdd}</td>
-                                                <td class="getMeals">${members["01821245430"].runningMonth().remainDining}</td>
-                                                <td>${members["01821245430"].runningMonth().diningDue}</td>
+                                                <td>${members["01644377150"].name}</td>
+                                                <td>${members["01644377150"].runningDiningCost()}</td>
+                                                <td>${members["01644377150"].runningMonth().diningAdd}</td>
+                                                <td class="getMeals">${members["01644377150"].runningMonth().remainDining}</td>
+                                                <td>${members["01644377150"].runningMonth().diningDue}</td>
                                             </tr>
 						
                                             <tr>
@@ -747,11 +747,11 @@ function opener(){
                                                 <td class="due-me">${members["01780608997"].runningMonth().diningDue}</td>
                                             </tr>
                                             <tr>
-                                                <th>${members["01821245430"].name}</th>
-                                                <td class="payable">${members["01821245430"].totalPayable()}</td>
-                                                <td class="paid-me">${members["01821245430"].running_paid}</td>
-                                                <td class="dining-me">${members["01821245430"].runningDiningCost()}</td>
-                                                <td class="due-me">${members["01821245430"].runningMonth().diningDue}</td>
+                                                <th>${members["01644377150"].name}</th>
+                                                <td class="payable">${members["01644377150"].totalPayable()}</td>
+                                                <td class="paid-me">${members["01644377150"].running_paid}</td>
+                                                <td class="dining-me">${members["01644377150"].runningDiningCost()}</td>
+                                                <td class="due-me">${members["01644377150"].runningMonth().diningDue}</td>
                                             </tr>
                                             <tr>
                                                 <th>${members["01645122114"].name}</th>
